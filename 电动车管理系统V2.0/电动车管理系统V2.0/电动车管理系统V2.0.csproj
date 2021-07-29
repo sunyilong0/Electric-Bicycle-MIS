@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79596332-4144-464E-B379-4D471FBDF7DA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>电动车管理系统V2._0</RootNamespace>
+    <AssemblyName>电动车管理系统V2.0</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Smobiler_128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Smobiler.Utility" />
+    <Reference Include="Smobiler.Core" />
+    <Reference Include="Smobiler.Core.Controls" />
+    <Reference Include="Smobiler.Plugins" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin\adminwork.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="admin\adminwork.Designer.cs">
+      <DependentUpon>adminwork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBHelper.cs" />
+    <Compile Include="admin\Findall.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="admin\Findall.Designer.cs">
+      <DependentUpon>Findall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmclass\FunctionMY.cs" />
+    <Compile Include="frmclass\GlobalData.cs" />
+    <Compile Include="frmclass\ID.cs" />
+    <Compile Include="frmclass\IEntity.cs" />
+    <Compile Include="frmclass\LeaveInputDto.cs" />
+    <Compile Include="frmGenerateQRcode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateQRcode.Designer.cs">
+      <DependentUpon>frmGenerateQRcode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHelp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.Designer.cs">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetting.Designer.cs">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MobileGlobal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SqlCommon.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Logon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Logon.Designer.cs">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\Cebianlan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\Cebianlan.Designer.cs">
+      <DependentUpon>Cebianlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\EditPwd.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\EditPwd.Designer.cs">
+      <DependentUpon>EditPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Frmfile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\Frmfile.Designer.cs">
+      <DependentUpon>Frmfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\leaveMessageshow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\leaveMessageshow.Designer.cs">
+      <DependentUpon>leaveMessageshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\onefrmsile.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\onefrmsile.Designer.cs">
+      <DependentUpon>onefrmsile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\Onemessegeshow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\Onemessegeshow.Designer.cs">
+      <DependentUpon>Onemessegeshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\sendmesseng.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\sendmesseng.Designer.cs">
+      <DependentUpon>sendmesseng.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\userdata.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\userdata.Designer.cs">
+      <DependentUpon>userdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\findmycar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\findmycar.Designer.cs">
+      <DependentUpon>findmycar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\findothercar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\findothercar.Designer.cs">
+      <DependentUpon>findothercar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\frmshow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\frmshow.Designer.cs">
+      <DependentUpon>frmshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Contral\Onebikeshow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Contral\Onebikeshow.Designer.cs">
+      <DependentUpon>Onebikeshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\Register.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User\work.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="User\work.Designer.cs">
+      <DependentUpon>work.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="admin\adminwork.resx">
+      <DependentUpon>adminwork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="admin\Findall.resx">
+      <DependentUpon>Findall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateQRcode.resx">
+      <DependentUpon>frmGenerateQRcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetting.resx">
+      <DependentUpon>frmSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Logon.resx">
+      <DependentUpon>Logon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\Cebianlan.resx">
+      <DependentUpon>Cebianlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\EditPwd.resx">
+      <DependentUpon>EditPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Frmfile.resx">
+      <DependentUpon>Frmfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\leaveMessageshow.resx">
+      <DependentUpon>leaveMessageshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\onefrmsile.resx">
+      <DependentUpon>onefrmsile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\Onemessegeshow.resx">
+      <DependentUpon>Onemessegeshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\sendmesseng.resx">
+      <DependentUpon>sendmesseng.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\userdata.resx">
+      <DependentUpon>userdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\findmycar.resx">
+      <DependentUpon>findmycar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\findothercar.resx">
+      <DependentUpon>findothercar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\frmshow.resx">
+      <DependentUpon>frmshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Contral\Onebikeshow.resx">
+      <DependentUpon>Onebikeshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User\work.resx">
+      <DependentUpon>work.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Smobiler_128.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

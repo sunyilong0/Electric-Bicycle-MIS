@@ -1,0 +1,3652 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smobiler.Core.Controls</name>
+    </assembly>
+    <members>
+        <member name="T:Smobiler.Core.Controls.AlbumView">
+            <summary>
+            相册控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.AlbumView.DeletePress">
+            <summary>
+            在删除按钮点击时发生
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumView.#ctor">
+            <summary>
+            初始化AlbumView类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.Items">
+            <summary>
+            获取相册数据
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.ResourcePath">
+            <summary>
+            获取和设置图像存储路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.ThumbResourcePath">
+            <summary>
+            获取和设置缩略图存储路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.TitleHeight">
+            <summary>
+            获取和设置浏览相册界面Title高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.ButtonText">
+            <summary>
+            获取和设置浏览相册界面删除按钮显示信息
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.isDelButton">
+            <summary>
+            获取和设置浏览相册界面按钮是否具有删除功能
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.ColumnNum">
+            <summary>
+            获取和设置每行显示相片列数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.AlbumItemHight">
+            <summary>
+            获取和设置行高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.GridLines">
+            <summary>
+            获取和设置是否显示网格线
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.GridLinesColor">
+            <summary>
+            获取和设置网格线颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumView.AllowDelete">
+            <summary>
+            获取和设置一个值，该值指示是否允许删除相册项
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumViewItemDeleteEventHandler">
+            <summary>
+            一个委托，它表示在删除按钮点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 DeletePress</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumViewItemDeleteEventArgs">
+            <summary>
+            为DeletePress事件提供数据
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItemDeleteEventArgs.#ctor(Smobiler.Core.Controls.AlbumViewItem)">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewItemDeleteEventArgs.Item">
+            <summary>
+            获取当前要删除的内容
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumViewItem">
+            <summary>
+            相册项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItem.#ctor">
+            <summary>
+            初始化AlbumViewItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItem.#ctor(System.String)">
+            <summary>
+            初始化AlbumViewitem类的一个新实例
+            </summary>
+            <param name="resourceId">原图</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItem.#ctor(System.String,System.String)">
+            <summary>
+            初始化AlbumViewItem类的一个新实例
+            </summary>
+            <param name="resourceId">原图</param>
+            <param name="thumbrResourceId">缩略图</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewItem.ResourceID">
+            <summary>
+            获取和设置原图图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewItem.ThumbResourceID">
+            <summary>
+            获取和设置缩略图图标
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumViewItemCollection">
+            <summary>
+            相册项集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItemCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化AlbumViewItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumViewItemTemplate">
+            <summary>
+            相册控件模板
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumViewItemTemplate.#ctor">
+            <summary>
+            相册控件模板
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewItemTemplate.ResourceID">
+            <summary>
+            获取与传递图像
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.AlbumPageView">
+            <summary>
+            浏览相册
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.AlbumPageView.#ctor">
+            <summary>
+            相册浏览
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewPageViewTemplate.ResourceID">
+            <summary>
+            获取与设置图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.AlbumViewPageViewTemplate.ResourcePath">
+            <summary>
+            获取与设置图像存储路径
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuView">
+            <summary>
+            图标菜单控件
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuView.#ctor">
+            <summary>
+            初始化IconMenuView类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.IconMenuView.ItemPress">
+            <summary>
+            在菜单项点击时发生
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuView.ShowDialogMenu(Smobiler.Core.Controls.IconMenuViewGroup,System.Int32,System.Boolean)">
+            <summary>
+            显示二级菜单
+            </summary>
+            <param name="group">菜单组</param>
+            <param name="ShowColumnNum">列数</param>
+            <param name="touchClose">点击空白区域是否关闭</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.Groups">
+            <summary>
+            获取菜单组集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.ItemWidth">
+            <summary>
+            获取和设置图像空间大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MessageWidth">
+            <summary>
+            获取和设置消息框大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MessageFontSize">
+            <summary>
+            获取和设置消息框中字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MessageBackColor">
+            <summary>
+            获取和设置消息框背景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MessageForeColor">
+            <summary>
+            获取和设置消息框字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.ColumnNum">
+            <summary>
+            获取和设置列数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.GridLines">
+            <summary>
+            获取和设置是否显示网格线
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.GridLinesColor">
+            <summary>
+            获取和设置网格线颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.ImageSizeMode">
+            <summary>
+            获取与设置图片显示模式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MenuItemHeight">
+            <summary>
+            获取和设置菜单行项高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.FontSize">
+            <summary>
+            获取和设置菜单项字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.ForeColor">
+            <summary>
+            获取和设置菜单项前景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.GroupBackColor">
+            <summary>
+            获取和设置菜单组标题背景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.MenuGroupHeight">
+            <summary>
+            获取和设置菜单组标题行高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.GroupFontSize">
+            <summary>
+            获取和设置菜单组标题字体大小(全局)
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.GroupForeColor">
+            <summary>
+            获取和设置菜单组标题字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuView.ShowGroupTitle">
+            <summary>
+            获取和设置一个值，该值指示是否显示菜单组标题
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewGroup">
+            <summary>
+            菜单组
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewGroup.#ctor">
+            <summary>
+            初始化IconMenuViewGroup类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewGroup.#ctor(System.String)">
+            <summary>
+            初始化IconMenuViewGroup类的一个新实例
+            </summary>
+            <param name="title">标题</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.ShowTitle">
+            <summary>
+            获取和设置是否显示菜单组标题
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.HorizontalAlignment">
+            <summary>
+            获取或设置菜单组文本水平方向
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.Text">
+            <summary>
+            获取或设置菜单组文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.FontSize">
+            <summary>
+            获取或设置本菜单组文本字体大小（对应单个Group，若设置0则使用GroupFontSize值）
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.ItemHeight">
+            <summary>
+            获取或设置本菜单行项高度（对应单个Group，若设置0则使用MenuItemHeight值）
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.IconBorderRadius">
+            <summary>
+            获取和设置图标圆角
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroup.Items">
+            <summary>
+            获取或设置菜单组项集合
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewGroupCollection">
+            <summary>
+            菜单组集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewGroupCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化IconMenuViewGoupCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewGroupTemplate.#ctor">
+            <summary>
+            菜单组文本模板
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroupTemplate.GroupFontSize">
+            <summary>
+            更改菜单组字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewGroupTemplate.Title">
+            <summary>
+            获取与传递菜单组文本内容
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewItem">
+            <summary>
+            菜单项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItem.#ctor">
+            <summary>
+            初始化IconMenuItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItem.#ctor(System.String,System.String)">
+            <summary>
+            初始化IconMenuItem类的一个新实例
+            </summary>
+            <param name="icon">图标</param>
+            <param name="text">文本</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItem.#ctor(System.String,System.String,System.String)">
+            <summary>
+            初始化IconMenuItem类的一个新实例
+            </summary>
+            <param name="id">编号</param>
+            <param name="icon">图标</param>
+            <param name="text">文本</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItem.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化IconMenuItem类的一个新实例
+            </summary>
+            <param name="id">编号</param>
+            <param name="icon">图标</param>
+            <param name="text">文本</param>
+            <param name="val">角标</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItem.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化IconMenuItem类的一个新实例
+            </summary>
+            <param name="id">编号</param>
+            <param name="icon">图标</param>
+            <param name="text">文本</param>
+            <param name="val">值</param>
+            <param name="messagetext">角标</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.MessageText">
+            <summary>
+            获取和设置消息数据显示的文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.Icon">
+            <summary>
+            获取和设置菜单项图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.IconPath">
+            <summary>
+            获取和设置菜单项图标资源路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.ImageType">
+            <summary>
+            获取和设置菜单项图标类型
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.Text">
+            <summary>
+            获取和设置菜单项文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.ID">
+            <summary>
+            获取和设置菜单项编号
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItem.Value">
+            <summary>
+            获取和设置菜单项值
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewItemCollection">
+            <summary>
+            菜单项集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItemCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化iconMenuViewItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewItemPressClickHandler">
+            <summary>
+            一个委托，表示菜单项点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 Smobiler.Core.Controls.IconMenuItemEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.IconMenuViewItemPressEventArgs">
+            <summary>
+            为IconMenuViewItemPress事件提供数据。
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.IconMenuViewItemPressEventArgs.#ctor(Smobiler.Core.Controls.IconMenuViewGroup,Smobiler.Core.Controls.IconMenuViewItem)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="group">点击的菜单项所属菜单组</param>
+            <param name="item">点击的菜单项</param>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItemPressEventArgs.Group">
+            <summary>
+            获取点击的菜单项所属菜单组
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.IconMenuViewItemPressEventArgs.Item">
+            <summary>
+            获取点击的菜单项
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.BarcodeScannerButton">
+            <summary>
+            条码扫描按钮
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.BarcodeScannerButton.#ctor">
+            <summary>
+            创建一个 BarcodeScannerButton 实例
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.BarcodeScannerButton.BarcodeScanned">
+            <summary>
+            在客户端返回条码数据时发生
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.BarcodeScannerButton.TimeOut">
+            <summary>
+            获取或设置客户端获取图像的超时时间[毫秒]
+            </summary>
+            <value>默认值60秒[60000毫秒]，0代表永不超时</value>
+            <returns></returns>
+            <remarks>在超时时间到达后，会自动触发事件或回调函数</remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.CameraButton">
+            <summary>
+            拍照按钮
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.CameraButton.#ctor">
+            <summary>
+            初始化CameraButton类的一个新实例
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.CameraButton.ImageCaptured">
+            <summary>
+            在客户端返回相机数据时发生。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.TimeOut">
+            <summary>
+            获取或设置客户端获取图像的超时时间[毫秒]
+            </summary>
+            <value>默认值60秒[60000毫秒]，0代表永不超时</value>
+            <returns></returns>
+            <remarks>在超时时间到达后，会自动触发事件或回调函数</remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.Mode">
+            <summary>
+            获取或设置相机组件获取图像的模式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.CompressedResolution">
+            <summary>
+            获取和设置压缩分辨率
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks>
+            压缩分辨率是指，在QualityMode设置为Custom或Compressed时，压缩上传时如果图片最大分辨率大于CompressedResolution设置的值，将大小压缩到CompressedResolution设置的以下，如果图片最大分辨率小于等于CompressedResolution设置的值，那么不进行压缩。
+            压缩分辨率并不是指当前压缩后实际的分辨率，而是按比例（整数类型）进行压缩。实际压缩后的分辨率会比CompressedResolution设置的值要小。
+            图片最大分辨率是指：一个图片分辨率由两组数字组成，前者为图片宽度，后者为图片高度，那么图片最大分辨率是指图片宽度与图片高度比较后的最大值。
+            设置为0代表压缩上传时根据系统默认设置压缩。
+            </remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.CompressedQuality">
+            <summary>
+            获取和设置压缩质量
+            </summary>
+            <value>int类型，1到100之间</value>
+            <remarks>数字越大，图片质量越好，图片大小越大</remarks>
+            <returns></returns>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.QualityMode">
+            <summary>
+            获取或设置相机组件图像上传质量的模式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.AllowEdit">
+            <summary>
+            获取和设置一个值，该值指示是否允许编辑图片
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.CameraButton.AlbumCount">
+            <summary>
+            获取和设置在CameraMode为Alubum时，上传的数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ImageButton">
+            <summary>
+            图片按钮
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageButton.#ctor">
+            <summary>
+            初始化ImageButton类的一个新实例
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.ImageButton.Press">
+            <summary>
+            在触摸操作激活时触发
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.ImageButton.LongPress">
+            <summary>
+            在触摸持续一段时间后发生
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageButton.OnPress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageButton.OnLongPress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ImageDirection">
+            <summary>
+            获取与设置图片显示位置
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ImgTextRatio">
+            <summary>
+            图片文字比例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.Text">
+            <summary>
+            获取与设置文本内容
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ForeColor">
+            <summary>
+            获取与设置文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.FontSize">
+            <summary>
+            获取与设置文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ResourcePath">
+            <summary>
+            图像资源路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.SizeMode">
+            <summary>
+            获取和设置指示如何显示图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ImageBorderRadius">
+            <summary>
+            获取与设置图像资源圆角
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.BindDisplayValueGone">
+            <summary>
+            获取和设置一个值，该值指示是否根据BindDisplayValue的值判断是否隐藏显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ResourceID">
+            <summary>
+            获取与设置图像资源名称
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageButton.Refresh">
+            <summary>
+            图片刷新
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.TextMember">
+            <summary>
+            获取或设置数据显示字段
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.DisplayMember">
+            <summary>
+            获取和设置显示绑定字段。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.DataMember">
+            <summary>
+            获取或设置数据值字段
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageButton.DisplayFormat">
+            <summary>
+            获取或设置根据DisplayNumber做数据绑定时格式
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.Direction">
+            <summary>
+            位置
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="F:Smobiler.Core.Controls.Direction.Left">
+            <summary>
+            左
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="F:Smobiler.Core.Controls.Direction.Top">
+            <summary>
+            上
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="F:Smobiler.Core.Controls.Direction.Right">
+            <summary>
+            右
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="F:Smobiler.Core.Controls.Direction.Bottom">
+            <summary>
+            下
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.Ratio">
+            <summary>
+            比例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Ratio.ImgRatio">
+            <summary>
+            图片比例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Ratio.TextRatio">
+            <summary>
+            文本比例
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RatioConverter">
+            <summary>
+            Ratio类型转换器
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.OfflineCameraButton">
+            <summary>
+            离线拍照按钮
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.OfflineCameraButton.OfflineImageCaptured">
+            <summary>
+            在客户端返回离线资源时发生。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.TimeOut">
+            <summary>
+            获取或设置客户端获取图像的超时时间[毫秒]
+            </summary>
+            <value>默认值60秒[60000毫秒]，0代表永不超时</value>
+            <returns></returns>
+            <remarks>在超时时间到达后，会自动触发事件或回调函数</remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.Mode">
+            <summary>
+            获取或设置相机组件获取图像的模式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.CompressedResolution">
+            <summary>
+            获取和设置压缩分辨率
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks>
+            压缩分辨率是指，在QualityMode设置为Custom或Compressed时，压缩上传时如果图片最大分辨率大于CompressedResolution设置的值，将大小压缩到CompressedResolution设置的以下，如果图片最大分辨率小于等于CompressedResolution设置的值，那么不进行压缩。
+            压缩分辨率并不是指当前压缩后实际的分辨率，而是按比例（整数类型）进行压缩。实际压缩后的分辨率会比CompressedResolution设置的值要小。
+            图片最大分辨率是指：一个图片分辨率由两组数字组成，前者为图片宽度，后者为图片高度，那么图片最大分辨率是指图片宽度与图片高度比较后的最大值。
+            设置为0代表压缩上传时根据系统默认设置压缩。
+            </remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.CompressedQuality">
+            <summary>
+            获取和设置压缩质量
+            </summary>
+            <value>int类型，1到100之间</value>
+            <remarks>数字越大，图片质量越好，图片大小越大</remarks>
+            <returns></returns>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.QualityMode">
+            <summary>
+            获取或设置相机组件图像上传质量的模式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.AllowEdit">
+            <summary>
+            获取和设置一个值，该值指示是否允许编辑图片
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.OfflineCameraButton.AlbumCount">
+            <summary>
+            获取和设置在CameraMode为Alubum时，上传的数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PhoneButton">
+            <summary>
+            电话按钮
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PhoneButton.#ctor">
+            <summary>
+            初始化PhoneButton类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PhoneButton.PhoneNumber">
+            <summary>
+            获取或设置电话号码
+            </summary>
+            <value>默认值空，如果电话号码为空，那么打开通讯录，如果电话号码不为空，那么直接在电话拨号盘上会显示设置的号码</value>
+            <returns></returns>
+            <remarks>在超时时间到达后，会自动触发事件或回调函数</remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ImageEx">
+            <summary>
+            扩展图像控件
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageEx.#ctor">
+            <summary>
+            初始化ImageEx类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.BorderRadius">
+            <summary>
+            Image控件边框角度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.ResourcePath">
+            <summary>
+            图像存储路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.SizeMode">
+            <summary>
+            获取和设置指示如何显示图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.ResourceID">
+            <summary>
+            获取与设置图像资源名称
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ImageEx.ImageStyle">
+            <summary>
+            Image显示样式
+            </summary>
+        </member>
+        <member name="F:Smobiler.Core.Controls.ImageEx.ImageStyle.FontIcon">
+            <summary>
+            显示图标
+            </summary>
+        </member>
+        <member name="F:Smobiler.Core.Controls.ImageEx.ImageStyle.Image">
+            <summary>
+            显示图片
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageEx.Refresh">
+            <summary>
+            图片刷新
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.DisplayMember">
+            <summary>
+            获取和设置显示绑定字段。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.DataMember">
+            <summary>
+            获取或设置数据值字段
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.DisplayFormat">
+            <summary>
+            获取或设置根据DisplayNumber做数据绑定时格式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ImageEx.BindMode">
+            <summary>
+            获取和设置绑定模式
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ImageEx.SetBindDisplayPropertyValue(System.String,System.Object)">
+            <summary>
+            SetBindDisplayPropertyValue
+            </summary>
+            <param name="propName"></param>
+            <param name="propValue"></param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuView">
+            <summary>
+            列表菜单控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.ListMenuView.ItemPress">
+            <summary>
+            在菜单项点击时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.ListMenuView.ItemActionPress">
+            <summary>
+            在菜单项按钮点击时发生。
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuView.#ctor">
+            <summary>
+            初始化ListMenuView类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.Groups">
+            <summary>
+            获取菜单组集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.MenuItemHeight">
+            <summary>
+            设置菜单行项高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.MenuGroupHeight">
+            <summary>
+            设置菜单组高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.ShowGroupTitle">
+            <summary>
+            获取或设置是否显示菜单组
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.TextForeColor">
+            <summary>
+            设置菜单项文本颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.GroupBackColor">
+            <summary>
+            设置菜单组背景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.GroupFontSize">
+            <summary>
+            设置菜单组文本大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.GroupForeColor">
+            <summary>
+            设置菜单组标题字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.SubTextForeColor">
+            <summary>
+            设置菜单项的子文本颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.GridLines">
+            <summary>
+            获取和设置是否显示菜单之间的分隔线
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuView.GridLinesColor">
+            <summary>
+            获取和设置菜单之间的分隔线颜色
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewGroup">
+            <summary>
+            列表菜单组
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroup.#ctor">
+            <summary>
+            设置菜单组基础属性
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroup.AddItem(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            菜单项内容添加
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮</param>
+            <param name="subContentLines">子文本行数</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewGroup.ShowTitle">
+            <summary>
+            获取和设置是否显示菜单组标题
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewGroup.Items">
+            <summary>
+            获取或设置菜单组项集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewGroup.Title">
+            <summary>
+            获取或设置菜单组文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewGroup.IconBorderRadius">
+            <summary>
+            获取和设置图标圆角
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewGroupCollection">
+            <summary>
+            菜单组集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化ListMenuViewGroupCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewGroupTitle">
+            <summary>
+            菜单组文本模板
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupTitle.#ctor">
+            <summary>
+            菜单组文本模板
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupTitle.ChangeTitle(System.Int32)">
+            <summary>
+            更改菜单组高度
+            </summary>
+            <param name="groupHeight"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupTitle.ChangeGroupBackColor(System.Drawing.Color)">
+            <summary>
+            更改菜单组背景色
+            </summary>
+            <param name="GroupBackColor">背景色</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupTitle.ChangeGroupFontSize(System.Int32)">
+            <summary>
+            更改菜单组字体大小
+            </summary>
+            <param name="groupFontSize">菜单组字体大小</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewGroupTitle.ChangeGroupForeColor(System.Drawing.Color)">
+            <summary>
+            更改菜单组字体颜色
+            </summary>
+            <param name="groupForeColor">菜单组字体颜色</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewGroupTitle.Title">
+            <summary>
+            获取与传递菜单组文本内容
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewItem">
+            <summary>
+            列表菜单项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItem.#ctor">
+            <summary>
+            初始化ListMenuViewItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItem.#ctor(System.String,System.String,System.String,System.String,System.Object)">
+            <summary>
+            菜单项内容传递
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮</param>
+            <param name="tag">Tag</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItem.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            菜单项内容传递
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItem.#ctor(System.String,System.String,System.String,System.String,System.Int32)">
+            <summary>
+            菜单项内容传递
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮</param>
+            <param name="subContentLines">子文本行数</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItem.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            菜单项内容传递
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮文本</param>
+            <param name="subContentLines">子文本行数</param>
+            <param name="actionResourceID">按钮图片</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.Group">
+            <summary>
+            菜单组集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.Icon">
+            <summary>
+            获取和设置菜单项图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.Name">
+            <summary>
+            获取和设置菜单项名称
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.Content">
+            <summary>
+            获取和设置菜单项文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ContentFontSize">
+            <summary>
+            获取和设置菜单项文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.SubContent">
+            <summary>
+            获取和设置菜单项子文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.SubContentLines">
+            <summary>
+            获取和设置菜单项子文本内容显示的行数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.Action">
+            <summary>
+            获取和设置菜单项动作按钮文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ActionFontSize">
+            <summary>
+            获取和设置菜单项动作按钮字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ActionResourceID">
+            <summary>
+            获取和设置菜单项动作按钮图像资源名称
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ActionImageType">
+            <summary>
+            获取和设置菜单项动作按钮图像资源类型
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItem.ActionResourcePath">
+            <summary>
+            获取和设置菜单项动作按钮图像资源路径
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewItemCollection">
+            <summary>
+            菜单项集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化listMenuViewItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewItemPressEventHandler">
+            <summary>
+            一个委托，它表示在菜单控件点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 ListMenuViewItemPress</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewItemPressEventArgs">
+            <summary>
+            为ListMenuViewItemPress事件提供数据
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemPressEventArgs.#ctor(Smobiler.Core.Controls.ListMenuViewItem)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="item">点击的菜单项</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemPressEventArgs.Item">
+            <summary>
+            获取点击的菜单项
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemPressEventArgs.Group">
+            <summary>
+            获取点击的菜单项所属菜单组
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ListMenuViewItemTemplate">
+            <summary>
+            菜单项模板的继承
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String)">
+            <summary>
+            菜单项模板
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="action">按钮</param>
+            <param name="subContentLines">子文本行数</param>
+            <param name="actionResourceID">按钮图片</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.#ctor(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            菜单项模板
+            </summary>
+            <param name="icon">图标</param>
+            <param name="content">文本</param>
+            <param name="subContent">子文本</param>
+            <param name="actionText">按钮文本</param>
+            <param name="actionImage">按钮文本</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.ChangeHeight(System.Int32)">
+            <summary>
+            更改菜单项高度
+            </summary>
+            <param name="itemHeight"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.ChangeFontSize(System.Single)">
+            <summary>
+            更改菜单项文本字体大小
+            </summary>
+            <param name="fontSize"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.ChangeForeColor(System.Drawing.Color)">
+            <summary>
+            更改菜单项文本字体颜色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ListMenuViewItemTemplate.ChangeSubTextForeColor(System.Drawing.Color)">
+            <summary>
+            更改菜单项子文本字体颜色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemTemplate.Content">
+            <summary>
+            获取菜单项文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemTemplate.SubContent">
+            <summary>
+            获取菜单项子文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemTemplate.Icon">
+            <summary>
+            获取菜单项图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ListMenuViewItemTemplate.Action">
+            <summary>
+            获取菜单项按钮
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeView">
+            <summary>
+            节点控件
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeView.#ctor">
+            <summary>
+            初始化NodeView类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.NodeView.NodeViewItemPress">
+            <summary>
+            在菜单项点击时发生
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.Items">
+            <summary>
+            获取NodeViewItem对象集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.ItemHeight">
+            <summary>
+            获取和设置节点项高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.FontIcon">
+            <summary>
+            获取或设置FontIcon样式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.ImageBorderRadius">
+            <summary>
+            获取和设置图标圆角
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.FontSize">
+            <summary>
+            获取或设置控件字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.ForeColor">
+            <summary>
+            获取或设置控件的前景色，用于显示文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeView.ItemBackColor">
+            <summary>
+            获取或设置内容背景颜色
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeViewClickEventArgs">
+            <summary>
+            为NodeViewClick提供数据
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewClickEventArgs.Item">
+            <summary>
+            获取工具栏项名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewClickEventArgs.#ctor(Smobiler.Core.Controls.NodeViewItem)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="item">工具栏项名称</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeViewItemClickEventHandler">
+            <summary>
+            一个委托，它表示在节点视图点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 NodeViewClickEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeViewItem">
+            <summary>
+            NodeView节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.#ctor">
+            <summary>
+            初始化NodeViewItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化NodeViewItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.ChangeFontIcon(System.String)">
+            <summary>
+            设置FontIcon样式
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.ChangeImageBorderRadius(System.Int32)">
+            <summary>
+            设置FontIcon样式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.TextColor">
+             <summary>
+            获取与设置菜单项文本颜色
+             </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.SubTextColor">
+            <summary>
+            获取与设置菜单项副文本颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.DateColor">
+            <summary>
+            获取与设置菜单项时间文本颜色
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.ChangeForeColor(System.Drawing.Color)">
+            <summary>
+            设置字体颜色
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.ChangeFontSize(System.Single)">
+            <summary>
+            设置字体大小
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItem.ChangeItemBackColor(System.Drawing.Color)">
+            <summary>
+            设置内容的背景颜色
+            </summary>
+            <param name="backColor"></param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.FontIcon">
+            <summary>
+            获取和设置FontIcon
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.IconColor">
+            <summary>
+            获取与设置FontIcon颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.Text">
+            <summary>
+            获取和设置文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.SubText">
+            <summary>
+            获取和设置副文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.Image">
+            <summary>
+            获取和设置节点图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItem.Date">
+            <summary>
+            获取和设置节点时间
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeViewItemCollection">
+            <summary>
+            节点集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化NodeViewItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.NodeViewItemTemplate">
+            <summary>
+            NodeViewItem节点模板
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            节点视图模板
+            </summary>
+            <param name="date">日期</param>
+            <param name="image">图片</param>
+            <param name="text">文本</param>
+            <param name="subtext">子文本</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.TouchContol">
+            <summary>
+            NodeViewItem节点内容
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.ChangetFontIcon(System.String)">
+            <summary>
+            改变FontIcon样式
+            </summary>
+            <param name="fonticon"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.ChangetFontSize(System.Single)">
+            <summary>
+            改变字体大小
+            </summary>
+            <param name="fontSize"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.ChangetSubTextForeColor(System.Drawing.Color)">
+            <summary>
+            设置副文本字体颜色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.ChangetTextForeColor(System.Drawing.Color)">
+            <summary>
+            设置文本字体颜色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.NodeViewItemTemplate.ChangetItemBackColor(System.Drawing.Color)">
+            <summary>
+            设置NodeViewItem的背景色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.FontIcon">
+            <summary>
+            获取与设置图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.Text">
+            <summary>
+            获取与设置文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.SubText">
+            <summary>
+            获取与设置子文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.Image">
+            <summary>
+            获取与设置图片
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.NodeViewItemTemplate.Date">
+            <summary>
+            获取与设置日期
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.Numeric">
+            <summary>
+            数量控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.Numeric.ValueChanged">
+            <summary>
+            值改变时发生
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.Numeric.#ctor">
+            <summary>
+            初始化Numeric类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.Numeric.Focus">
+            <summary>
+            使控件获取焦点。
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.Numeric.Blur">
+            <summary>
+            使控件失去焦点。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.IconVisible">
+            <summary>
+            是否显示加减图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.MinusIconColor">
+            <summary>
+            获取和设置减号图标字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.PlusIconColor">
+            <summary>
+            获取和设置加号图标字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.FontSize">
+            <summary>
+            获取和设置字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.Value">
+            <summary>
+            设置控件显示的默认值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.Variation">
+            <summary>
+            获取和设置控件值变化时的增量
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.MaxValue">
+            <summary>
+            获取和设置控件可设置的最大值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.MinValue">
+            <summary>
+            获取和设置控件可设置的最小值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.Decimals">
+            <summary>
+            获取和设置保留小数位数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.DisplayMember">
+            <summary>
+            获取和设置显示绑定字段。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.DataMember">
+            <summary>
+            获取或设置数据值字段
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Numeric.DisplayFormat">
+            <summary>
+            获取或设置根据DisplayNumber做数据绑定时格式
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PopList">
+            <summary>
+            列表选择控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.PopList.Selected">
+            <summary>
+            在Poplist选择完成时发生。
+            </summary>
+            <remarks>当MultiSelect为Flase时，在用户点击某一个列表项时发生。当MultiSelect为True时，在用户点击某些列表项后，并点击完成时发生。</remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.#ctor">
+            <summary>
+            初始化Poplist类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.ItemFontSize">
+            <summary>
+            获取和设置菜单项的文本大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.Title">
+            <summary>
+            获取和设置列表选择抬头
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.TitleHeght">
+            <summary>
+            获取与设置列表选择标题高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.TitleFontSize">
+            <summary>
+            获取与设置列表选择标题说明文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.TitleForeColor">
+            <summary>
+            获取与设置列表选择标题说明文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.GroupHeight">
+            <summary>
+            获取和设置菜单组高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.ItemHeight">
+            <summary>
+            获取和设置菜单组高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.ItemForeColor">
+            <summary>
+            获取和设置菜单项文本颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.GroupFontSize">
+            <summary>
+            获取和设置菜单组文本大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.GroupForeColor">
+            <summary>
+            获取和设置菜单组文本颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.Groups">
+            <summary>
+            获取列表选择组集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.MultiSelect">
+            <summary>
+            获取和设置是否可以多选
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.SingleSelectMode">
+            <summary>
+            获取和设置单选时的选择模式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.Selections">
+            <summary>
+            获取当前列表选择项集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopList.Selection">
+            <summary>
+            获取当前列表选择项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.SetSelections(Smobiler.Core.Controls.PopListItem[])">
+            <summary>
+            设置当前默认列表选择项
+            </summary>
+            <param name="selectItems">列表选择项</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.ClearSelection">
+            <summary>
+            清空当前列表选择项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.ShowDialog">
+            <summary>
+            使用一个对话框显示列表选择界面
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.ShowDialog(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+            使用一个对话框显示列表选择界面
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopList.Show">
+            <summary>
+            显示列表选择界面
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PopListGroup">
+            <summary>
+            列表选择组
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.#ctor">
+            <summary>
+            初始化PopListGroup类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListGroup.Items">
+            <summary>
+            获取列表选择项集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListGroup.ItemVisible">
+            <summary>
+            获取和设置列表选择项是否显示
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListGroup.TitleVisible">
+            <summary>
+            获取和设置组标题是否显示
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListGroup.Title">
+            <summary>
+            获取和设置组标题
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListGroup.Value">
+            <summary>
+            获取和设置组值
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.AddListItem(System.String)">
+            <summary>
+            添加选择项
+            </summary>
+            <param name="text">选择项文本</param>
+            <returns></returns>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.AddListItem(System.String,System.String)">
+            <summary>
+            添加选择项
+            </summary>
+            <param name="text">选择项文本</param>
+            <param name="value">选择项值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.ChangeItemFontSize(System.Int32)">
+            <summary>
+            更改item字体大小
+            </summary>
+            <param name="fontSize"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.ChangeItemForeColor(System.Drawing.Color)">
+            <summary>
+            改变item字体颜色
+            </summary>
+            <param name="foreColor"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.ChangeGroupFontSize(System.Int32)">
+            <summary>
+            改变group字体大小
+            </summary>
+            <param name="groupFontSize"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroup.ChangeGroupForeColor(System.Drawing.Color)">
+            <summary>
+            改变group字体颜色
+            </summary>
+            <param name="groupForeColor"></param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PopListGroupCollection">
+            <summary>
+            列表选择组集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListGroupCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化PopListGroupCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PoplistGroupTitle.ChangepGroupFontSize(System.Int32)">
+            <summary>
+            更改菜单组字体大小
+            </summary>
+            <param name="groupFontSize">菜单组字体大小</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PoplistGroupTitle.ChangepGroupHeight(System.Int32)">
+            <summary>
+            更改菜单组高度
+            </summary>
+            <param name="groupHeight">菜单组高度</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PoplistGroupTitle.ChangepGroupForeColor(System.Drawing.Color)">
+            <summary>
+            更改菜单组字体颜色
+            </summary>
+            <param name="groupForeColor">菜单组字体颜色</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PoplistGroupTitle.Title">
+            <summary>
+            获取与传递菜单组文本内容
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PopListItem">
+            <summary>
+            列表选择项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListItem.#ctor">
+            <summary>
+            初始化PopListItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListItem.#ctor(System.String)">
+            <summary>
+            初始化PopListItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListItem.#ctor(System.String,System.String)">
+            <summary>
+            初始化PopListItem类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListItem.Group">
+            <summary>
+            获取元素所属的PoplistGroup
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListItem.Value">
+            <summary>
+            获取和设置元素值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListItem.FontSize">
+            <summary>
+            获取和设置元素文本大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListItem.ForeColor">
+            <summary>
+            获取和设置元素前景色。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.PopListItem.Text">
+            <summary>
+            获取和设置元素文本
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.PopListItemCollection">
+            <summary>
+            列表选择项集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.PopListItemCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化PopListItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.Properties.Resources">
+            <summary>
+              一个强类型的资源类，用于查找本地化的字符串等。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.ResourceManager">
+            <summary>
+              返回此类使用的缓存的 ResourceManager 实例。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.Culture">
+            <summary>
+              使用此强类型资源类，为所有资源查找
+              重写当前线程的 CurrentUICulture 属性。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.BarcodeScanner">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.Camera">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.CameraOffline">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Properties.Resources.Phone">
+            <summary>
+              查找 System.Drawing.Bitmap 类型的本地化资源。
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioButton">
+            <summary>
+            选项按钮
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButton.#ctor">
+            <summary>
+            初始化RadioButton类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButton.#ctor(System.String)">
+            <summary>
+            初始化RadioButton类的一个新实例
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButton.#ctor(System.String,System.Boolean)">
+            <summary>
+            初始化RadioButton类的一个新实例
+            </summary>
+            <param name="text">文本</param>
+            <param name="checked">选择状态</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButton.#ctor(System.String,System.Boolean,System.Drawing.Color)">
+            <summary>
+            初始化RadioButton类的一个新实例
+            </summary>
+            <param name="text">文本</param>
+            <param name="checked">选择状态</param>
+            <param name="backgroundcolor">背景颜色</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButton.Checked">
+            <summary>
+            获取和设置选择状态
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButton.BackGroundColor">
+            <summary>
+            获取和设置背景颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButton.Text">
+            <summary>
+            获取和设置显示文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButton.ID">
+            <summary>
+            获取和设置选项按钮编号
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButton.Value">
+            <summary>
+            获取和设置选项按钮值
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioButtonCollection">
+            <summary>
+            选项按钮集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButtonCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化RadioButtonCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioGroup">
+            <summary>
+            选项按钮组控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.RadioGroup.ButtonPress">
+            <summary>
+            在集合项点击时发生
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioGroup.#ctor">
+            <summary>
+            构建函数
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioGroup.SetRadioButtonCheckedByID(System.String)">
+            <summary>
+            根据选项按钮ID设置选择状态
+            </summary>
+            <param name="id">选项按钮编号</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.GridLines">
+            <summary>
+            获取和设置是否显示网格线
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.GridLinesColor">
+            <summary>
+            获取和设置网格线颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.ButtonStyle">
+            <summary>
+            获取和设置按钮显示位置
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.ButtonHeight">
+            <summary>
+            设置按钮高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.FontSize">
+            <summary>
+            设置字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.ForeColor">
+            <summary>
+            设置字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.MultiSelect">
+            <summary>
+            设置按钮是否支持多选
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.Buttons">
+            <summary>
+            获取选择按钮集合
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.CheckedButton">
+            <summary>
+            获取当前选择的按钮
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioGroup.CheckedButtons">
+            <summary>
+            获取当前选择的按钮集合
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioGroupStyle">
+            <summary>
+            RadioGroup显示样式
+            </summary>
+        </member>
+        <member name="F:Smobiler.Core.Controls.RadioGroupStyle.Right">
+            <summary>
+            按钮在文本的右测
+            </summary>
+        </member>
+        <member name="F:Smobiler.Core.Controls.RadioGroupStyle.Left">
+            <summary>
+            按钮在文本的左测
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioButtonPressEventArgs">
+            <summary>
+            为RadioButtonPress提供数据
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RadioButtonPressEventArgs.Button">
+            <summary>
+            工具栏项名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RadioButtonPressEventArgs.#ctor(Smobiler.Core.Controls.RadioButton)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="button">工具栏项名称</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RadioButtonPressEventHandler">
+            <summary>
+            一个委托，它表示在选项按钮点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 RadioButtonPressEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.RatingBar">
+            <summary>
+            评价控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.RatingBar.ValueChanged">
+            <summary>
+            在修改评分值时触发
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.RatingBar.#ctor">
+            <summary>
+            初始化RatingBar类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.DefaultHeight">
+            <summary>
+            默认高度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.DefaultWidth">
+            <summary>
+            默认宽度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.NumRatings">
+            <summary>
+            获取和设置评价数量
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.Enabled">
+            <summary>
+            获取或设置一个值，该值指示是否已启用该控件。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.ResourceID">
+            <summary>
+            获取和设置未选中状态的图像资源
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.SelectedResourceID">
+            <summary>
+            获取和设置选择状态的图像资源
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.ResourceColor">
+            <summary>
+            获取和设置初始颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.SelectedResourceColor">
+            <summary>
+            获取和设置选定后颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.Value">
+            <summary>
+            获取和设置当前评分值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.DisplayMember">
+            <summary>
+            获取和设置显示绑定字段。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.DataMember">
+            <summary>
+            获取或设置数据值字段
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.RatingBar.DisplayFormat">
+            <summary>
+            获取或设置根据DisplayNumber做数据绑定时格式
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewButtonCell">
+            <summary>
+            表格按钮
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonCell.Text">
+            <summary>
+            获取和设置控件文本
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCell">
+            <summary>
+            表格单元
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.BackColor">
+            <summary>
+            获取和设置控件背景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.RowIndex">
+            <summary>
+            获取表格单元对应的行索引
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.OwningRow">
+            <summary>
+            获取表格单元对应的行
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.OwningColumn">
+            <summary>
+            获取表格单元对应的列
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.ColumnIndex">
+            <summary>
+            获取表格单元对应的列索引
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCell.BindDisplayValue">
+            <summary>
+            获取和设置表格单元默认绑定显示属性的值
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCellCollection">
+            <summary>
+            表格单元集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewCellCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化 TableViewCellCollection 类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCheckBoxCell">
+            <summary>
+            表格复选框
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxCell.Checked">
+            <summary>
+            获取或设置选择状态
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxControl.DisplayMember">
+            <summary>
+            获取和设置显示绑定字段。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxControl.DataMember">
+            <summary>
+            获取或设置数据值字段
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxControl.DisplayFormat">
+            <summary>
+            获取或设置根据DisplayNumber做数据绑定时格式
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewImageCell">
+            <summary>
+            表格图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageCell.ResourceID">
+            <summary>
+            获取或设置图像资源名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewLabelCell">
+            <summary>
+            表格文本
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextBoxCell">
+            <summary>
+            表格输入框
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextCell">
+            <summary>
+            标签文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextCell.Text">
+            <summary>
+            获取和设置控件文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextCell.ForeColor">
+            <summary>
+            获取和设置控件前景色
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewButtonColumn">
+            <summary>
+            表格按钮列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonColumn.Text">
+            <summary>
+            获取和设置控件文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonColumn.FontSize">
+            <summary>
+            获取或设置控件字体大小
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonColumn.ForeColor">
+            <summary>
+            获取或设置控件的前景色，用于显示文本。
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonColumn.HorizontalAlignment">
+            <summary>
+            获取或设置控件水平方向
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCheckBoxColumn">
+            <summary>
+            表格复选框列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxColumn.TintColor">
+            <summary>
+            获取和设置样式颜色
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxColumn.Checked">
+            <summary>
+            获取或设置选择状态
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewColumn">
+            <summary>
+            表格列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.Index">
+            <summary>
+            获取索引
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.HeaderText">
+            <summary>
+            获取和设置列抬头文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.BackColor">
+            <summary>
+            获取或设置控件的背景色。
+            </summary>
+            <value>表示控件背景色的 Color。</value>
+            <remarks>
+            BackColor 属性为环境属性。环境属性是一种控件属性，如果不设置，就会从父控件中检索该属性。
+            例如，默认情况下，Button 与其父级 Form 一样具有相同的 BackColor。
+            </remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.DisplayMember">
+            <summary>
+            获取和设置文本绑定字段
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.DataMember">
+            <summary>
+            获取和设置值绑定字段
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.Format">
+            <summary>
+            获取和设置格式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.Padding">
+            <summary>
+            获取或设置控件边框与边框内控件间隔距离
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.Margin">
+            <summary>
+            获取或设置控件边框与边框外控件间隔距离
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumn.Width">
+            <summary>
+            获取或设置控件的宽度。
+            </summary>
+            <value>控件的宽度。</value>
+            <remarks>
+            </remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewColumnCollection">
+            <summary>
+            表格列集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewColumnCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化 TableViewColumnCollection 类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewColumnCollectionEditor">
+            <summary>
+            表格列编辑器
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewColumnCollectionEditor.CanSelectMultipleInstances">
+            <summary>
+            设定 CollectionEditor 是否允许加入多种不同型别的集合成员
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewColumnCollectionEditor.CreateNewItemTypes">
+            <summary>
+            取得这个集合编辑器可包含的数据型别，将集合可包含的数据型别以数组传回
+            </summary>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewColumnCollectionEditor.GetDisplayText(System.Object)">
+            <summary>
+            设定清单项目的显示文字
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewImageColumn">
+            <summary>
+            表格图像列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageColumn.SizeMode">
+            <summary>
+            获取和设置图片显示模式。
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageColumn.ResourceID">
+            <summary>
+            获取或设置图像资源名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageColumn.ResourcePath">
+            <summary>
+            获取或设置图像资源路径
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageColumn.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewImageColumn.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewLabelColumn">
+            <summary>
+            表格文本列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewLabelColumn.Selectable">
+            <summary>
+            获取或设置一个值，该值指示是否可以长按选择文本。
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextBoxColumn">
+            <summary>
+            表格输入框列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextBoxColumn.Multiline">
+            <summary>
+            获取或设置是否多行显示
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextBoxColumn.ReadOnly">
+            <summary>
+            获取或设置文本框是否只读
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextColumn">
+            <summary>
+            表格文本列
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.Text">
+            <summary>
+            获取和设置控件文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.FontSize">
+            <summary>
+            获取或设置控件字体大小
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.ForeColor">
+            <summary>
+            获取或设置控件的前景色，用于显示文本。
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.Bold">
+            <summary>
+            获取或设置文本粗体
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.Italic">
+            <summary>
+            获取或设置文本斜体
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextColumn.HorizontalAlignment">
+            <summary>
+            获取或设置控件水平方向
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableView">
+            <summary>
+            表格控件
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.TextBoxCellTextChanged">
+            <summary>
+            在Text属性改变时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.TextBoxCellTouchEnter">
+            <summary>
+            在触摸进入控件时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.TextBoxCellTouchLeave">
+            <summary>
+            在触摸离开控件时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.ButtonCellLongPress">
+            <summary>
+            在按钮长按时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.ButtonCellPress">
+            <summary>
+            在按钮点击时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.CheckBoxCellCheckedChanged">
+            <summary>
+            在选择改变时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.RowBinding">
+            <summary>
+            在行绑定时发生。
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.RowBind">
+            <summary>
+            在行绑定后发生。
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TableView.DataSourceUpdate">
+            <summary>
+            在更新数据源时发生。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.Columns">
+            <summary>
+            获取表格数据列。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.Rows">
+            <summary>
+            获取表格数据行。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.DataSource">
+            <summary>
+            获取或设置表格数据源
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.DataMember">
+            <summary>
+            获取或设置数据源名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.BindMode">
+            <summary>
+            获取或设置绑定模式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.RowHeight">
+            <summary>
+            获取和设置表格行高度
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks>仅在设计时生效</remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.ColumnHeaderStyle">
+            <summary>
+            获取和设置列标题样式
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.ColumnHeaderVisible">
+            <summary>
+            获取和设置一个值，该值指示是否显示列抬头
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableView.GridLinesColor">
+            <summary>
+            获取和设置表格线颜色
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableView.NewRow">
+            <summary>
+            新添加行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableView.NewRow(System.Object,System.String)">
+            <summary>
+            新添加行
+            </summary>
+            <param name="dataSource">数据源</param>
+            <param name="dataMember">数据源名称</param>
+            <returns></returns>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableView.UpdateRow(Smobiler.Core.Controls.TableViewRow,System.Object,System.String)">
+            <summary>
+            更新行
+            </summary>
+            <param name="row">数据行</param>
+            <param name="dataSource">数据源</param>
+            <param name="dataMember">数据源名称</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableView.DataBind(System.Object[])">
+            <summary>
+            数据绑定
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableView.OnDataSourceUpdate(Smobiler.Core.Controls.DataSourceUpdateEventArgs)">
+            <summary>
+            触发数据源更新
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextBoxCellEventHandler">
+            <summary>
+            一个委托，表示TextBoxCell事件发生时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 TableViewTextBoxCellEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTextBoxCellEventArgs">
+            <summary>
+            为 TableViewTextBoxCellEventHandler 提供数据
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewTextBoxCellEventArgs.#ctor(Smobiler.Core.Controls.TableViewTextBoxCell)">
+            <summary>
+            构建函数
+            </summary>
+            <param name="cell">表格输入框</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTextBoxCellEventArgs.Cell">
+            <summary>
+            获取表格输入框
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewButtonCellEventHandler">
+            <summary>
+            一个委托，表示ButtonCell事件发生时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 TableViewButtonCellEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewButtonCellEventArgs">
+            <summary>
+            为 TableViewButtonCellEventHandler 提供数据
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewButtonCellEventArgs.#ctor(Smobiler.Core.Controls.TableViewButtonCell)">
+            <summary>
+            构建函数
+            </summary>
+            <param name="cell">表格输入框</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewButtonCellEventArgs.Cell">
+            <summary>
+            获取表格输入框
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCheckBoxCellEventHandler">
+            <summary>
+            一个委托，表示CheckBoxCell事件发生时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 TableViewCheckBoxCellEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewCheckBoxCellEventArgs">
+            <summary>
+            为 TableViewCheckBoxCellEventHandler 提供数据
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewCheckBoxCellEventArgs.#ctor(Smobiler.Core.Controls.TableViewCheckBoxCell)">
+            <summary>
+            构建函数
+            </summary>
+            <param name="cell">表格输入框</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewCheckBoxCellEventArgs.Cell">
+            <summary>
+            获取复选框
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTemplateBindEventHandler">
+            <summary>
+            一个委托，它表示模板控件绑定过程要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 <see cref="T:Smobiler.Core.Controls.TableViewTemplateBindEventArgs"/></param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewTemplateBindEventArgs">
+            <summary>
+            为 TableViewTemplateBind 绑定提供数据
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTemplateBindEventArgs.Row">
+            <summary>
+            获取绑定行
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewTemplateBindEventArgs.Data">
+            <summary>
+            获取绑定数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewColumnHeaderStyle">
+            <summary>
+            TableView 列抬头样式
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumnHeaderStyle.Height">
+            <summary>
+            获取列抬头高度
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumnHeaderStyle.FontSize">
+            <summary>
+            获取列抬头字体大小
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumnHeaderStyle.BackColor">
+            <summary>
+            获取列抬头背景颜色
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewColumnHeaderStyle.ForeColor">
+            <summary>
+            获取列抬头前景颜色
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewColumnHeaderStyleConverter">
+            <summary>
+            TableViewColumnHeaderStyle类型转换
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewRow">
+            <summary>
+            表格行
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TableViewRow.BackColor">
+            <summary>
+            获取与设置背景色
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TableViewRowCollection">
+            <summary>
+            表格行集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TableViewRowCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化 TableViewRowCollection 类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.Title">
+            <summary>
+            标题栏控件
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.Title.#ctor">
+            <summary>
+            初始化ImageButton类的一个新实例
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.Title.ImagePress">
+            <summary>
+            在触摸操作激活时触发
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.Title.OnPress">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.BackColor">
+            <summary>
+            获取与设置背景颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.Dock">
+            <summary>
+            获取和设置控件停靠的位置和方式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.ImageWidth">
+            <summary>
+            获取和设置图片宽度
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.Text">
+            <summary>
+            获取与设置文本内容
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.FontSize">
+            <summary>
+            获取与设置文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.TextColor">
+            <summary>
+            获取和设置文本字体颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.TextAlign">
+            <summary>
+            获取和设置文本对齐方式
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.ResourcePath">
+            <summary>
+            图像存储路径
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.SizeMode">
+            <summary>
+            获取和设置指示如何显示图像
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.ResourceID">
+            <summary>
+            获取与设置图像资源名称
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.Title.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ToolBar">
+            <summary>
+            工具栏
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBar.#ctor">
+            <summary>
+            初始化ToolBar类的一个新实例
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.Dock">
+            <summary>
+            获取和设置控件停靠的位置和方式
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.ToolBar.ToolbarItemClick">
+            <summary>
+            在工具栏点击时发生
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.ForeColor">
+            <summary>
+            获取和设置字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.FontSize">
+            <summary>
+            获取和设置字体大小。
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.ItemCount">
+            <summary>
+            获取与设置一页可显示的菜单项的数量上限
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.ItemWidth">
+            <summary>
+            获取和设置图像空间大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.MessageWidth">
+            <summary>
+            获取和设置消息框大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.MessageFontSize">
+            <summary>
+            获取和设置消息框中字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.MessageBackColor">
+            <summary>
+            获取和设置消息框背景色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.MessageForeColor">
+            <summary>
+            获取和设置消息框字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.SelectBackColor">
+            <summary>
+            获取和设置选中后背景颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.SelectForeColor">
+            <summary>
+            获取和设置选中后字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.Items">
+            <summary>
+            获取toolBar的工具栏菜单项
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBar.SelectedIndex">
+            <summary>
+            获取和设置默认选择项
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ToolbarClickEventArgs">
+            <summary>
+            为ToolbarClick事件提供数据
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolbarClickEventArgs.Name">
+            <summary>
+            工具栏项名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolbarClickEventArgs.#ctor(System.String)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="name">工具栏项名称</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ToolbarItemClickEventHandler">
+            <summary>
+            一个委托，它表示在工具栏点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 ToolbarClickEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ToolBarItem">
+            <summary>
+            工具栏数据项
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItem.#ctor">
+            <summary>
+            初始化ToolbarItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItem.#ctor(System.String)">
+            <summary>
+            初始化ToolbarItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItem.#ctor(System.String,System.String)">
+            <summary>
+            初始化ToolbarItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItem.#ctor(System.String,System.String,System.String)">
+            <summary>
+            初始化ToolbarItem类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItem.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            初始化ToolBarItem类的一个新实例
+            </summary>
+            <param name="text">文本</param>
+            <param name="iconID">图标名称</param>
+            <param name="selectIconID">选中图标名称</param>
+            <param name="messagetext">消息数据文本</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.Name">
+            <summary>
+            获取和设置工具条名称
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.MessageText">
+            <summary>
+            获取和设置消息数据显示的文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.Text">
+            <summary>
+            获取和设置工具条显示的文本
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.ImageExBorderRadius">
+            <summary>
+            获取与设置图像资源圆角
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.ImageType">
+            <summary>
+            获取和设置图像类型
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.IconColor">
+            <summary>
+            获取与设置图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.SelectIconColor">
+            <summary>
+            获取与设置选中图标颜色
+            </summary>   
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.IconID">
+            <summary>
+            获取或设置工具条按钮图标名称
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.ToolBarItem.SelectIconID">
+            <summary>
+            获取或设置工具条按钮选中状态的图标名称
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.ToolBarItemCollection">
+            <summary>
+            工具栏数据项集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.ToolBarItemCollection.#ctor(Smobiler.Core.Controls.ToolBar)">
+            <summary>
+            初始化ToolBarItemCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeView">
+            <summary>
+            树形菜单控件
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeView.#ctor">
+             <summary>
+            初始化TreeView类的一个新实例
+             </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TreeView.NodePress">
+            <summary>
+            在节点点击时发生
+            </summary>
+        </member>
+        <member name="E:Smobiler.Core.Controls.TreeView.NodeLongPress">
+            <summary>
+            在节点长按时发生
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.ImageType">
+            <summary>
+            获取和设置层级开启与关闭图像类型
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.NodeExpandIcon">
+            <summary>
+            获取与传递层级开启图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.NodeExpandIconColor">
+            <summary>
+            获取与传递层级开启图标颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.NodeIconSize">
+            <summary>
+            获取与传递层级开启（关闭）图标大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.NodeCollapseIcon">
+            <summary>
+            获取与传递层级关闭图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.NodeCollapseIconColor">
+            <summary>
+            获取与传递层级关闭图标颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.IconBorderRadius">
+            <summary>
+            设置Icon圆角属性
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.SubTextFontSize">
+            <summary>
+            默认子文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.TextFontSize">
+            <summary>
+            默认文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.SubTextColor">
+            <summary>
+            默认子文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.TextColor">
+            <summary>
+            默认文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.CheckBoxs">
+            <summary>
+            获取和设置一个值，该值指示是否在节点旁边显示复选框。
+            </summary>
+            <value>如果显示复选框设置为 <c>true</c>; 否则, <c>false</c>.</value>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeView.Nodes">
+            <summary>
+            获取treeView控件中的根节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeView.ExpandAll">
+            <summary>
+            展开所有子树节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeView.CollapseAll">
+            <summary>
+            折叠树节点
+            </summary>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeViewClickEventArgs">
+            <summary>
+            为NodeViewClick提供数据
+            </summary>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewClickEventArgs.Text">
+            <summary>
+            工具栏项名称
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewClickEventArgs.Value">
+            <summary>
+            工具栏项值
+            </summary>
+            <value></value>
+            <returns></returns>
+            <remarks></remarks>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewClickEventArgs.Nodes">
+            <summary>
+            treeView控件中的根节点
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewClickEventArgs.Index">
+            <summary>
+            treeView控件中的节点值
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewClickEventArgs.#ctor(Smobiler.Core.Controls.TreeViewNode)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="nodes">treeView控件中的根节点</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeViewNodeClickEventHandler">
+            <summary>
+            一个委托，它表示在节点视图点击时要调用的方法。
+            </summary>
+            <param name="sender">事件源</param>
+            <param name="e">包含事件数据的 NodeViewClickEventArgs</param>
+            <remarks></remarks>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeViewNode">
+            <summary>
+            属性菜单节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.#ctor">
+            <summary>
+            初始化TreeViewNode类的一个新实例
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.#ctor(System.String)">
+            <summary>
+            树形菜单节点内容添加
+            </summary>
+            <param name="text">文本内容</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.#ctor(System.String,System.String)">
+            <summary>
+            树形菜单节点内容添加
+            </summary>
+            <param name="text">文本内容</param>
+            <param name="subtext">子文本内容</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.#ctor(System.String,System.String,System.String)">
+            <summary>
+            树形菜单节点内容添加
+            </summary>
+            <param name="icon">图标</param>
+            <param name="text">文本内容</param>
+            <param name="subtext">子文本内容</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.#ctor(System.String,System.String,System.String,System.String)">
+            <summary>
+            树形菜单节点内容添加
+            </summary>
+            <param name="text">文本内容</param>
+            <param name="subtext">子文本内容</param>
+            <param name="icon">图标</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.OnNodeItemClick(Smobiler.Core.Controls.TreeViewNode)">
+            <summary>
+            按钮点击
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.OnNodeItemLongClick(Smobiler.Core.Controls.TreeViewNode)">
+            <summary>
+            按钮长按
+            </summary>
+            <param name="node"></param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Value">
+            <summary>
+            获取和设置值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Index">
+            <summary>
+            获取和设置项值
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Icon">
+            <summary>
+            获取和设置图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.ImageType">
+            <summary>
+            获取和设置图标类型
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Text">
+            <summary>
+            获取和设置文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.SubText">
+            <summary>
+            获取和设置子文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.SubTextFontSize">
+            <summary>
+            获取和设置子文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.IconBorderRadius">
+            <summary>
+            获取和设置图标圆角
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.TextFontSize">
+            <summary>
+            获取和设置文本字体大小
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.TextColor">
+            <summary>
+            获取和设置文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Checked">
+            <summary>
+            获取和设置一个值，该值指示 <see cref="T:Smobiler.Core.Controls.TreeViewNode"/> 的复选框是否被选中。
+            </summary>
+            <value><c>true</c> if checked; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.SubTextColor">
+            <summary>
+            获取与传递子文本字体颜色
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.Nodes">
+            <summary>
+            获取TreeViewNode对象集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.Expand">
+            <summary>
+            展开树节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.ExpandAll">
+            <summary>
+            展开所有子树节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.Collapse">
+            <summary>
+            折叠树节点
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNode.Collapse(System.Boolean)">
+            <summary>
+            折叠树节点
+            </summary>
+            <param name="ignoreChildren">为 true 则使子节点保持当前状态；为 false 则折叠子节点。</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNode.IsExpanded">
+            <summary>
+            获取一个值，用以指示树节点是否处于可展开状态。
+            </summary>
+            <value>如果树节点处于可展开状态，则为 true；否则为 false。</value>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeViewNodeCollection">
+            <summary>
+            树形菜单控件节点集合
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNodeCollection.#ctor(Smobiler.Core.Controls.IMobileViewCollectionOwner)">
+            <summary>
+            初始化TreeViewNodeCollection类的一个新实例
+            </summary>
+            <param name="owner">所有者</param>
+        </member>
+        <member name="T:Smobiler.Core.Controls.TreeViewNodeTemplate">
+            <summary>
+            树形菜单节点模板
+            </summary>
+        </member>
+        <member name="M:Smobiler.Core.Controls.TreeViewNodeTemplate.#ctor(System.String,System.String,System.String)">
+            <summary>
+            树形菜单节点模板
+            </summary>
+            <param name="text">文本</param>
+            <param name="subText">子文本</param>
+            <param name="icon">图片</param>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNodeTemplate.Icon">
+            <summary>
+            获取图标
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNodeTemplate.Text">
+            <summary>
+            获取文本内容
+            </summary>
+        </member>
+        <member name="P:Smobiler.Core.Controls.TreeViewNodeTemplate.SubText">
+            <summary>
+            获取子文本内容
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,372 @@
+2021/06/23 17:06:54 [Server-1] Starting 
+2021/06/23 17:06:55 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 17:06:55 [Server-1] Started 
+2021/06/23 17:06:55 [AutoSet-7] Start 
+2021/06/23 17:10:52 [TcpAccept-3] 192.168.1.4:55890 
+2021/06/23 17:10:52 [52fcd1137edd366cb9271c7473784af2-192.168.1.4-8] {"deviceOS":"Android","deviceOSVersion":"10","deviceModel":"BMH-AN10","screenSize":{"width":1080,"height":2289},"density":2.549999952316284,"version":"6.3.0","coreVersion":"6.3.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false,"languages":["zh-Hans-CN"]}} 
+2021/06/23 22:30:07 [Server-1] Starting 
+2021/06/23 22:30:07 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:30:07 [Server-1] Started 
+2021/06/23 22:30:07 [AutoSet-7] Start 
+2021/06/23 22:30:17 [TcpAccept-3] 192.168.1.4:50888 
+2021/06/23 22:30:17 [52fcd1137edd366cb9271c7473784af2-192.168.1.4-10] {"deviceOS":"Android","deviceOSVersion":"10","deviceModel":"BMH-AN10","screenSize":{"width":1080,"height":2289},"density":2.549999952316284,"version":"6.3.0","coreVersion":"6.3.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false,"languages":["zh-Hans-CN"]}} 
+2021/06/23 22:31:06 [Server-1] Starting 
+2021/06/23 22:31:06 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:31:06 [Server-1] Started 
+2021/06/23 22:31:06 [AutoSet-7] Start 
+2021/06/23 22:31:07 [TcpAccept-3] 192.168.1.4:50904 
+2021/06/23 22:31:07 [52fcd1137edd366cb9271c7473784af2-192.168.1.4-10] {"deviceOS":"Android","deviceOSVersion":"10","deviceModel":"BMH-AN10","screenSize":{"width":1080,"height":2289},"density":2.549999952316284,"version":"6.3.0","coreVersion":"6.3.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false,"languages":["zh-Hans-CN"]}} 
+2021/06/23 22:31:23 [Server-1] Stoping 
+2021/06/23 22:31:23 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 22:31:23 [TcpAccept-EX-12] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:31:24 [Server-1] Stoped 
+2021/06/23 22:31:24 [AutoSet-7] Stop 
+2021/06/23 22:37:29 [Server-1] Starting 
+2021/06/23 22:37:30 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:37:30 [Server-1] Started 
+2021/06/23 22:37:31 [Server-1] Stoping 
+2021/06/23 22:37:31 [TcpAccept-EX-8] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:37:32 [Server-1] Stoped 
+2021/06/23 22:37:32 [AutoSet-7] Stop 
+2021/06/23 22:38:53 [Server-1] Starting 
+2021/06/23 22:38:53 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:38:53 [Server-1] Started 
+2021/06/23 22:38:53 [AutoSet-7] Start 
+2021/06/23 22:38:55 [TcpAccept-3] 192.168.1.4:51000 
+2021/06/23 22:39:15 [Server-1] Stoping 
+2021/06/23 22:39:15 [TcpAccept-EX-10] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:39:15 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 22:39:16 [Server-1] Stoped 
+2021/06/23 22:39:16 [AutoSet-7] Stop 
+2021/06/23 22:40:58 [Server-1] Starting 
+2021/06/23 22:40:59 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:40:59 [Server-1] Started 
+2021/06/23 22:41:02 [TcpAccept-3] 192.168.1.4:51012 
+2021/06/23 22:41:19 [Server-1] Stoping 
+2021/06/23 22:41:19 [TcpAccept-EX-3] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:41:19 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 22:41:20 [Server-1] Stoped 
+2021/06/23 22:41:20 [AutoSet-7] Stop 
+2021/06/23 22:41:57 [Server-1] Starting 
+2021/06/23 22:41:57 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:41:58 [Server-1] Started 
+2021/06/23 22:41:58 [AutoSet-7] Start 
+2021/06/23 22:42:00 [TcpAccept-3] 192.168.1.4:51018 
+2021/06/23 22:42:20 [Server-1] Starting 
+2021/06/23 22:42:20 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:42:20 [Server-1] Started 
+2021/06/23 22:42:20 [AutoSet-7] Start 
+2021/06/23 22:42:23 [TcpAccept-3] 192.168.1.4:51022 
+2021/06/23 22:43:08 [Server-1] Starting 
+2021/06/23 22:43:08 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:43:09 [Server-1] Started 
+2021/06/23 22:43:10 [TcpAccept-3] 192.168.1.4:51026 
+2021/06/23 22:43:28 [Server-1] Stoping 
+2021/06/23 22:43:28 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:43:28 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 22:43:29 [Server-1] Stoped 
+2021/06/23 22:43:29 [AutoSet-7] Stop 
+2021/06/23 22:44:59 [Server-1] Starting 
+2021/06/23 22:45:00 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:45:00 [Server-1] Started 
+2021/06/23 22:45:00 [AutoSet-7] Start 
+2021/06/23 22:45:02 [TcpAccept-3] 192.168.1.4:51042 
+2021/06/23 22:45:33 [Server-1] Stoping 
+2021/06/23 22:45:33 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:45:33 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 22:45:34 [Server-1] Stoped 
+2021/06/23 22:45:34 [AutoSet-7] Stop 
+2021/06/23 22:47:15 [Server-1] Starting 
+2021/06/23 22:47:15 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:47:16 [Server-1] Started 
+2021/06/23 22:47:16 [AutoSet-7] Start 
+2021/06/23 22:47:17 [Server-1] Stoping 
+2021/06/23 22:47:17 [TcpAccept-EX-8] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 22:47:18 [Server-1] Stoped 
+2021/06/23 22:47:18 [AutoSet-7] Stop 
+2021/06/23 22:48:41 [Server-1] Starting 
+2021/06/23 22:48:41 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:48:42 [Server-1] Started 
+2021/06/23 22:48:43 [TcpAccept-3] 192.168.1.4:51050 
+2021/06/23 22:49:01 [TcpAccept-10] 192.168.1.4:51068 
+2021/06/23 22:50:48 [Server-1] Starting 
+2021/06/23 22:50:48 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:50:49 [Server-1] Started 
+2021/06/23 22:50:49 [AutoSet-7] Start 
+2021/06/23 22:50:50 [TcpAccept-3] 192.168.1.4:51082 
+2021/06/23 22:51:38 [Server-1] Starting 
+2021/06/23 22:51:38 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:51:38 [Server-1] Started 
+2021/06/23 22:51:40 [TcpAccept-3] 192.168.1.4:51088 
+2021/06/23 22:53:05 [Server-1] Starting 
+2021/06/23 22:53:05 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 22:53:05 [Server-1] Started 
+2021/06/23 22:53:05 [AutoSet-7] Start 
+2021/06/23 22:53:07 [TcpAccept-3] 192.168.1.4:51114 
+2021/06/23 22:53:07 [52fcd1137edd366cb9271c7473784af2-192.168.1.4-10] {"deviceOS":"Android","deviceOSVersion":"10","deviceModel":"BMH-AN10","screenSize":{"width":1080,"height":2289},"density":2.549999952316284,"version":"6.3.0","coreVersion":"6.3.0","autoBuild":false,"isCompany":true,"extraInfo":{"package_name":"com.smobiler.app","display_name":"Smobiler","plugin_msg":null,"lowMemory":false,"languages":["zh-Hans-CN"]}} 
+2021/06/23 23:19:01 [Server-1] Starting 
+2021/06/23 23:19:02 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:19:02 [Server-1] Started 
+2021/06/23 23:19:02 [AutoSet-7] Start 
+2021/06/23 23:19:02 [TcpAccept-3] 192.168.1.4:52194 
+2021/06/23 23:19:12 [Server-1] Stoping 
+2021/06/23 23:19:12 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:19:12 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:19:13 [Server-1] Stoped 
+2021/06/23 23:19:13 [AutoSet-7] Stop 
+2021/06/23 23:22:07 [Server-1] Starting 
+2021/06/23 23:22:08 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:22:08 [Server-1] Started 
+2021/06/23 23:22:08 [AutoSet-7] Start 
+2021/06/23 23:22:09 [TcpAccept-3] 192.168.1.4:52220 
+2021/06/23 23:22:28 [Server-1] Starting 
+2021/06/23 23:22:28 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:22:28 [Server-1] Started 
+2021/06/23 23:22:28 [AutoSet-7] Start 
+2021/06/23 23:22:29 [TcpAccept-3] 192.168.1.4:52234 
+2021/06/23 23:22:34 [Server-1] Stoping 
+2021/06/23 23:22:34 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:22:34 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:22:35 [Server-1] Stoped 
+2021/06/23 23:22:35 [AutoSet-7] Stop 
+2021/06/23 23:24:48 [Server-1] Starting 
+2021/06/23 23:24:49 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:24:49 [Server-1] Started 
+2021/06/23 23:24:49 [AutoSet-7] Start 
+2021/06/23 23:24:50 [TcpAccept-3] 192.168.1.4:52262 
+2021/06/23 23:24:56 [Server-1] Stoping 
+2021/06/23 23:24:56 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:24:56 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:24:57 [Server-1] Stoped 
+2021/06/23 23:24:57 [AutoSet-7] Stop 
+2021/06/23 23:26:13 [Server-1] Starting 
+2021/06/23 23:26:13 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:26:13 [Server-1] Started 
+2021/06/23 23:26:13 [AutoSet-7] Start 
+2021/06/23 23:26:13 [TcpAccept-3] 192.168.1.4:52280 
+2021/06/23 23:26:21 [Server-1] Stoping 
+2021/06/23 23:26:21 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:26:21 [TcpAccept-EX-11] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:26:22 [Server-1] Stoped 
+2021/06/23 23:26:22 [AutoSet-7] Stop 
+2021/06/23 23:32:24 [Server-1] Starting 
+2021/06/23 23:32:24 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:32:24 [Server-1] Started 
+2021/06/23 23:32:24 [AutoSet-7] Start 
+2021/06/23 23:32:25 [TcpAccept-3] 192.168.1.4:52300 
+2021/06/23 23:39:38 [Server-1] Starting 
+2021/06/23 23:39:38 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:39:39 [Server-1] Started 
+2021/06/23 23:39:39 [TcpAccept-3] 192.168.1.4:52330 
+2021/06/23 23:39:56 [Server-1] Stoping 
+2021/06/23 23:39:56 [TcpAccept-EX-12] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:39:57 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:39:58 [Server-1] Stoped 
+2021/06/23 23:39:58 [AutoSet-7] Stop 
+2021/06/23 23:45:46 [Server-1] Starting 
+2021/06/23 23:45:46 [Initial-1] Version: 630.16170, HttpServerPort: 2324, TcpServerPort: 2323, DeveloperTrace: Single, DebugMode: True, TracePrint: True, ClientTrace: False, EnableStackView: True, SessionTimeOut: 1800, NetworkTimeOut: 30, MirrorPatternMaxVerifyTimes: 3, FormStackMaxCount: 10, RelativeScreen: True, TextFontScaling: True, ResourceDenyLocation: , SysTrace: False
+        BasePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug
+        DefaultImagePath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Image
+        DefaultAudioPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Audio
+        DefaultDocumentPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Document
+        DefaultUploadPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Upload
+        DefaultMediaPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Media
+        DefaultWebPath: C:\Users\17317\source\repos\电动车管理系统V2.0\电动车管理系统V2.0\bin\Debug\Resources\Web
+ 
+2021/06/23 23:45:46 [Server-1] Started 
+2021/06/23 23:45:46 [AutoSet-7] Start 
+2021/06/23 23:45:47 [TcpAccept-3] 192.168.1.4:52464 
+2021/06/23 23:46:20 [Server-1] Stoping 
+2021/06/23 23:46:20 [52fcd1137edd366cb9271c7473784af2-1] Stop-StopServer-True-- 
+2021/06/23 23:46:20 [TcpAccept-EX-14] 无法访问已释放的对象。
+对象名:“System.Net.Sockets.Socket”。 
+2021/06/23 23:46:22 [Server-1] Stoped 
+2021/06/23 23:46:22 [AutoSet-7] Stop 
